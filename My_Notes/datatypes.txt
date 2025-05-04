@@ -1,0 +1,7 @@
+Data Types: https://developer.hashicorp.com/terraform/language/expressions/types
+                  
+
+Builtin Functions: https://developer.hashicorp.com/terraform/language/functions
+
+
+

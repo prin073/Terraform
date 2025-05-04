@@ -1,0 +1,10 @@
+Install Terraform
+=============
+
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+
+
+IDE 
+====
+Add hashicorp terraform extension to visual studio

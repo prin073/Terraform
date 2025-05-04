@@ -1,0 +1,13 @@
+Command
+
+Terraform plan
+
+Terraform plan -var “username=Prince”
+
+terraform plan -var "username=Prince" -var "age=20" 
+
+ terraform plan -var 'username=["Prince", "Kumar", "Raj”]’  ==> Passing list value from cmd
+
+terraform plan -var "usersage={Ankit=22, Ram=24}"  ==> Passing map value from cmd
+
+terraform plan -var-file=develpoment.tfvars  ==> using custom var file
