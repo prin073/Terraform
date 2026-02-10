@@ -11,3 +11,11 @@ terraform plan -var "username=Prince" -var "age=20"
 terraform plan -var "usersage={Ankit=22, Ram=24}"  ==> Passing map value from cmd
 
 terraform plan -var-file=develpoment.tfvars  ==> using custom var file
+
+
+terraform init
+terraform apply --auto-approve=true
+terraform validate ==> validates the syntax
+terraform fmt ==> formats the tf file
+terraform console ==> opens a console where one can access the lcoal vars or run terrform functions
+terraform refresh ==> It updates your Terraform state file with the real-time values from your infrastructure. It goes and checks AWS/resource and updates the state to match reality
